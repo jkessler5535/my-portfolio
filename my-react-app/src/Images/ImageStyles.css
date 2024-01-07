@@ -1,0 +1,60 @@
+  /* for polaroid */
+  img {
+   -webkit-filter: grayscale(100%); 
+   filter: grayscale(100%);
+   
+  }
+
+
+  .polaroid a {
+    transform: rotate(3deg);
+    background: #ffffff;
+    display: inline-block;
+    margin: 55px 75px 35px;
+    padding: 25px 25px 55px;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(131, 99, 99, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    z-index: 0;
+    position: relative;
+  
+  }
+  .polaroid img {
+    display: block;
+    width: 275px;
+  }
+  .polaroid a:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 10;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+  }
+  /* polaroid ends*/
+
+  /*background-image*/
+  .main-Section {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-Image: url("../Images/background.jpg");
+  }
+  
+  #about {
+    background-color: yellow;
+    height: 100vh;
+    margin-top: -100vh;
+  }
+  
+ 
+
+
+
