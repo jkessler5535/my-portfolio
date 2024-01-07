@@ -4,9 +4,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-
+  
 }
+.col-md-6 {
+  color: #fff;
+}
+
+
+/* social-links*/
 .social-links {
   padding: 0;
   display: flex;

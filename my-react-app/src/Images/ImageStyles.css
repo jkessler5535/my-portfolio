@@ -5,7 +5,6 @@
    
   }
 
-
   .polaroid a {
     transform: rotate(3deg);
     background: #ffffff;
@@ -25,6 +24,8 @@
   .polaroid img {
     display: block;
     width: 275px;
+    
+   
   }
   .polaroid a:hover {
     -webkit-transform: scale(1.2);
@@ -46,15 +47,10 @@
     background-repeat: no-repeat;
     overflow: hidden;
     background-Image: url("../Images/background.jpg");
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+    filter: brightness(85%);
   }
   
-  #about {
-    background-color: yellow;
-    height: 100vh;
-    margin-top: -100vh;
-  }
-  
- 
 
 
 

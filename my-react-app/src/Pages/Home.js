@@ -2,7 +2,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 import './Home.css';
 import HeroImage from '../Images/me.png';
 import '../Images/ImageStyles.css';
-
 import About from '../Pages/About';
 
 
