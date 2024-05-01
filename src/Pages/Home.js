@@ -19,7 +19,7 @@ function Home() {
   return (
     <div className="background box-shadow-bottom " id="home">
       <Sidebar/>
-      <Container className="container-padding">
+      <Container className="container-padding hero-banner">
           <Row className="justify-content-center mt-5">
             <Col md={6} className="order-md-2 d-flex justify-content-center align-items-center">
               <div className="polaroid">
