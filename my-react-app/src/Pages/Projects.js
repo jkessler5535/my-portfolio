@@ -1,6 +1,6 @@
 export default function Projects (){
   return(
-    <div>
+    <div className="projects">
       <h1>Projects</h1>
     </div>
   )

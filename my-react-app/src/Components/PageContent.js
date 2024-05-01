@@ -7,6 +7,8 @@ function PageContent({ page }) {
     content = <div>Content for the Home page</div>;
   } else if (page === 'about') {
     content = <div>Content for the About page</div>;
+  } else if (page === 'skills') {
+    content = <div>Content for the About page</div>;
   } else if (page === 'projects') {
     content = <div>Content for the Projects page</div>;
   } else if (page === 'contact') {

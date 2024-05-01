@@ -1,34 +1,147 @@
 
-.content-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.inner-content{
+    max-width: 950px;
+    width: 100%;
+    text-align: left;
+    padding:2px 18px ;
+    margin-top: 5rem;
+    
+
+}
+ span.my-name {
+  color: orangered;
+ 
+}
+
+h1 {
+  font-size: 36px;
+  letter-spacing: 0.12rem;
+  color: whitesmoke;
+}
+
+
+h2 {
+  font-size: 28px;
+  color: whitesmoke;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+  letter-spacing: 1px;
+ 
+}
+
+p {
+  font-size: 18px;
+  color: #f5f5f5;
+  letter-spacing: 1px;
+  line-height: 27px;
+  margin-bottom: 2.2rem;
+
   
 }
-.col-md-6 {
+
+ .contact-btn  {
+  padding: 10px 20px;
+  background-color: rgba(56, 132, 199, 1);
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+  margin-top:2.6rem;
+  text-decoration: none;
+}
+
+.contact-btn:hover a {
+  background-color: rgb(0, 0, 230);
   color: #fff;
 }
 
 
-/* social-links*/
-.social-links {
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  margin-top:12rem;
-}
 
-.social-links-list {
-  list-style: none;
-  padding: 0;
-}
+/* media query*/
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    
+    
+  }
 
-.social-links-list li {
-  margin-bottom: 1rem;
-  padding: 1.25rem;
+   .polaroid,
+   .about-img{
+    text-align: center ;
+   
+  }
+  .polaroid img {
+    max-width: none;
+    
+  }
+
+  .polaroid,
+  .inner-content,
+  .about-content{
+    width: 100%;
+    padding:0;
+    margin-top:0;
+    text-align: center;
+  }
+  h2{
+    margin-bottom: 1rem;
+      
+    
+  }
+  .polaroid a {
+    transform: none !important;
+    background: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    transition: none !important;
+   
+  }
+
   
+    .contact-btn {
+      margin-bottom: 2rem;
+    }
+    
+  
+
+  .sidebar{
+    display: none !important;
+  }
 }
-.icon {
-  font-size: 1.5rem;
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  .container {
+    flex-direction: row;
+  }
+ 
+  .inner-content {
+    max-width: 450px;
+    width: 100%;
+    padding:0;
+    margin-top:10px;
+    text-align: left;
+  }
+  h1{
+    padding-top: 5.5rem;
+    
+  }
+  
+  .polaroid a {
+    transform: none !important;
+    background: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    transition: none !important;
+   
+  }
+  .sidebar{
+    display: none !important;
+  }
 }
