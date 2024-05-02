@@ -42,7 +42,7 @@ p {
   
 }
 
- .contact-btn {
+ #contact-btn {
   padding: 10px 20px;
   background-color: dodgerblue;
   border-radius: 8px;
@@ -53,10 +53,10 @@ p {
   letter-spacing: 1px;
   margin-top:2.6rem;
   text-decoration: none;
+  cursor:pointer;
   
-}
-
-
+ }
+ 
 
 /* media query*/
 @media (max-width: 767px) {

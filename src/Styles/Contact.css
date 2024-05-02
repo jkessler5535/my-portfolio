@@ -1,9 +1,58 @@
-#Contact p{
-  color:rgba(120, 116, 116, 0.8);
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
-#Contact a {
+#contact p {
+  color: rgba(120, 116, 116, 0.8);
+  text-align: center;
+  flex: 1;
+}
+
+#contact a {
   text-decoration: none;
+}
+
+
+
+/* Social Links*/
+
+.social-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.social-links li {
+  margin-right: 10px;
+  margin-bottom: 22px;
+}
+
+.social-links li a {
+  color: gray;
+  font-size: 25px;
+  padding: 6px;
   
 }
+.social-links li:nth-child(1) a:hover{
+  color:black;
+}
+
+.social-links li:nth-child(2) a:hover {
+  color:dodgerblue;
+}
+.social-links li:nth-child(3) a:hover {
+  color:blue;
+}
+

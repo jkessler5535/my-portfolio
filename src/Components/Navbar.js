@@ -1,6 +1,6 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import '.styles/Navbar.css';
-import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
+
 
 
 function MyNavbar({ setCurrentPage})  {

@@ -8,16 +8,16 @@
   /*background-image*/
   .background {
     position: relative;
-    height: 100vh;
+    height: 94vh;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
     overflow: hidden;
-    background-Image: url("../Images/background.jpg");
+    background-Image: url("../Images/cat-han-unsplash.jpg");
     filter: brightness(95%);
     
   }
-  
 
+ 
 
 
