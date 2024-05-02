@@ -1,5 +1,4 @@
-import './Home.css';
-import Hero from '../Images/me.png';
+import '../Styles/Home.css';
 import {Container, Row, Col} from 'react-bootstrap';
 import '../Images/ImageStyles.css';
 import Sidebar from '../Components/Sidebar';
@@ -17,19 +16,10 @@ function Home() {
 
 
   return (
-    <div className="background box-shadow-bottom " id="home">
+    <div className="background box-shadow-bottom" id="home">
       <Sidebar/>
       <Container className="container-padding hero-banner">
-          <Row className="justify-content-center mt-5">
-            <Col md={6} className="order-md-2 d-flex justify-content-center align-items-center">
-              <div className="polaroid">
-                <a href="/home">
-                  <img src={Hero} alt="Intro" className="img-fluid" />
-                </a>
-              </div>
-            </Col>
-          
-          
+          <Row className="justify-content-center">
             <Col md={6} className="order-md-1 d-flex justify-content-center flex-column align-items-center ">
               <div className="inner-content">
                 <h1>Hi, I'm <span className="my-name">Jamie!</span></h1>

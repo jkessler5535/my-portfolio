@@ -10,7 +10,6 @@
  flex-direction: row;
  justify-content: center;
  margin: 0 auto;
- align-items: center;
  background-color: rgba(0, 0, 0, 0.2);
  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
  width: 100%;
@@ -36,9 +35,6 @@
   border-radius: 5px;
 
 }
-.img-fluid:hover{
-  transform: scale(1.02);
-}
 
 .about-content h1 {
   font-size: 33px; 
@@ -61,29 +57,3 @@
   
 }
 
-/* Media Query*/
-@media only screen and (max-width: 768px) {
-  .about-container {
-    height: auto;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    overflow-y: none;
-    position: none;
-   
-  }
-  .about-container {
-    height: auto;
-    top: unset;
-    left: unset;
-    transform: unset;
-    position: static;
-    margin: 0;
-  }
-
-  .about-container img {
-    text-align: center;
-    height:auto;
-    
-  }
-}

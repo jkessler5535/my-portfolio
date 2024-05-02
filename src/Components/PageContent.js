@@ -12,7 +12,7 @@ function PageContent({ page }) {
   } else if (page === 'projects') {
     content = <div>Content for the Projects page</div>;
   } else if (page === 'contact') {
-    content = <div>Content for the About page</div>;
+    content = <div>Content for the Contact page</div>;
   } else {
     content = <div>Page not found</div>;
   }

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Card} from 'react-bootstrap';
-import './SkillsSection.css';
+import '../Styles/SkillsSection.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 

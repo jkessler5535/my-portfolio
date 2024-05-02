@@ -1,4 +1,6 @@
-
+.container-padding{
+  margin-top: 140px;
+}
 .inner-content{
     max-width: 950px;
     width: 100%;
@@ -30,9 +32,6 @@
 }
 
 
-
-
-
 p {
   font-size: 18px;
   color: #f5f5f5;
@@ -43,23 +42,18 @@ p {
   
 }
 
- .contact-btn  {
+ .contact-btn {
   padding: 10px 20px;
-  background-color: rgba(56, 132, 199, 1);
+  background-color: dodgerblue;
   border-radius: 8px;
-  color: #fff;
+  color: white;
   font-size: 16px;
   font-weight: bold;
   border: none;
-  cursor: pointer;
   letter-spacing: 1px;
   margin-top:2.6rem;
   text-decoration: none;
-}
-
-.contact-btn:hover a {
-  background-color: rgb(0, 0, 230);
-  color: #fff;
+  
 }
 
 
@@ -69,20 +63,13 @@ p {
   .container {
     flex-direction: column;
     
-    
   }
 
-   .polaroid,
    .about-img{
     text-align: center ;
-   
-  }
-  .polaroid img {
-    max-width: none;
-    
+
   }
 
-  .polaroid,
   .inner-content,
   .about-content{
     width: 100%;
@@ -90,28 +77,12 @@ p {
     margin-top:0;
     text-align: center;
   }
+
   h2{
     margin-bottom: 1rem;
-      
     
   }
-  .polaroid a {
-    transform: none !important;
-    background: none !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    box-shadow: none !important;
-    transition: none !important;
-   
-  }
-
   
-    .contact-btn {
-      margin-bottom: 2rem;
-    }
-    
-  
-
   .sidebar{
     display: none !important;
   }
@@ -119,7 +90,6 @@ p {
 
 
 @media (min-width: 768px) and (max-width: 991px) {
-  
   .container {
     flex-direction: row;
   }
@@ -131,20 +101,12 @@ p {
     margin-top:10px;
     text-align: left;
   }
+
   h1{
     padding-top: 5.5rem;
     
   }
   
-  .polaroid a {
-    transform: none !important;
-    background: none !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    box-shadow: none !important;
-    transition: none !important;
-   
-  }
   .sidebar{
     display: none !important;
   }

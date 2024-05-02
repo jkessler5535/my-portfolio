@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Nav} from 'react-bootstrap';
-import './Navigation.css';
+import '../Styles/Navigation.css';
 import {Link} from "react-scroll";
 
 
@@ -14,7 +14,7 @@ function Navigation({ setCurrentPage }) {
       <Navbar expand="lg">
         <span className="logo lg-left" id="home">JK</span>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+        <Navbar.Collapse className="justify-content-end">
           <Nav className="ml-auto custom-nav">
             <Nav.Item>
               <Nav.Link

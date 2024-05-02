@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 import {Row, Col} from 'react-bootstrap';
-import './Sidebar.css';
+import '../Styles/Sidebar.css';
 
 
 
@@ -13,13 +13,13 @@ const Sidebar = () => {
           <div className="social-links">
             <ul className="social-links-list">
               <li>
-                <a href="www.github.com/jkessler5535" target="_blank"><FaGithub className="s-icon"/></a>
+                <a href="https://www.github.com/jkessler5535" target="_blank" rel="noreferrer"><FaGithub className="s-icon"/></a>
               </li>
               <li>
-                <a href="www.linkedin.com/jkessler5535" target="_blank"><FaLinkedin className="s-icon"/></a>
+                <a href="https://www.linkedin.com/in/jamie-kessler-b90591121/" target="_blank" rel="noreferrer"><FaLinkedin className="s-icon" /></a>
               </li>
               <li>
-                <a href="www.twitter.com/jkessler5535" target="_blank"><FaTwitter className="s-icon"/></a>
+                <a href="https://www.twitter.com/jkessler5535" target="_blank" rel="noreferrer"><FaTwitter className="s-icon"/></a>
               </li>
             </ul>
             <div className="line"></div>

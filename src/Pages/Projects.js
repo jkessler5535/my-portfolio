@@ -1,7 +1,9 @@
+import '../Styles/Projects.css';
+
 export default function Projects (){
   return(
-    <div className="projects">
-      <h1>Projects</h1>
+    <div className="container" id="projects">
+      <h1 className="logo h1-projects">Projects</h1>
     </div>
   )
 }
