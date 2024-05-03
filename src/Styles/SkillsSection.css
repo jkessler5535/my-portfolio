@@ -1,5 +1,6 @@
 .skills-section{
   background-color: rgb(245,245,245);
+  padding-bottom: 95px;
 
 }
 .skills-content {
@@ -51,6 +52,7 @@
 .skill-card:hover i {
   color: blue;
 }
+
 
 /* Media Queries */
 @media (max-width: 768px) {

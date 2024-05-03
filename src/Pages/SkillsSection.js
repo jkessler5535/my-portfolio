@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card} from 'react-bootstrap';
+import {Card,Link} from 'react-bootstrap';
 import '../Styles/SkillsSection.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
@@ -10,7 +10,7 @@ const SkillsSection = () => {
       <h1 className="skills-heading logo lg-c">Skills</h1>
       <div className="skills-content">
         <Card className="skill-card">
-          <i class="fa-brands fa-html5"></i>
+          <i className="fa-brands fa-html5"></i>
         </Card>
         <Card className="skill-card">
           <i class="fa-brands fa-css3"></i>
