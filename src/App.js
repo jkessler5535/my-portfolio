@@ -7,6 +7,7 @@ import About from './Pages/About';
 import SkillsSection from './Pages/SkillsSection';
 import Projects from './Pages/Projects';
 import Contact from './Pages/Contact';
+import Footer from './Pages/Footer';
 import Stickman from './Pages/Stickman.js';
 import './App.css';
 import './index.css';
@@ -25,6 +26,7 @@ function App() {
       <SkillsSection />
       <Projects />
       <Contact />
+      <Footer/>
     </div>
   );
 }
