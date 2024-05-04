@@ -1,14 +1,14 @@
 .container-padding{
-  margin-top: 140px;
+  margin: 185px 0;
+  
+
 }
 .inner-content{
-    max-width: 1060px;
+    max-width: 820px;
     width: 100%;
     text-align: left;
-    padding:2px 18px ;
-    margin-top: 5rem;
+    padding: 15px 20px;
     
-
 }
  span.my-name {
   color: orangered;
@@ -17,9 +17,8 @@
 
 .hero-banner {
   h1 {
-    font-size: 72px;
-    white-space: nowrap;
-    letter-spacing: 0.10rem;
+    font-size: 70px;
+    letter-spacing: 0.12rem;
     color: whitesmoke;
     padding-bottom: 1.2px;
     font-weight: bolder;
@@ -85,10 +84,6 @@ p {
     margin-bottom: 1rem;
     
   }
-  
-  .sidebar{
-    display: none !important;
-  }
 }
 
 
@@ -108,9 +103,5 @@ p {
   h1{
     padding-top: 5.5rem;
     
-  }
-  
-  .sidebar{
-    display: none !important;
   }
 }
