@@ -2,14 +2,21 @@
   font-size: 33px;
  
 }
+.projects-section{
+  background-color: rgb(255,255,240);
+ 
+}
 
 #projects {
   display: flex; 
   justify-content:center;
   align-items: center;
-  padding: 80px 15px 250px;
+  padding: 25px 15px 250px;
+  
+  
 
 }
  #projects h1 {
+  margin-top:25px;
   text-align:center;
  }

@@ -1,6 +1,7 @@
- #contact {
-  margin-bottom: 3rem;
-  max-width:905px;
+ .contact-section {
+  margin: 5rem auto;
+  max-width:950px;
+
 
  }
 
@@ -8,10 +9,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top:35px;
 }
 .inner-contact{
   display: block;
-  display: flex;
   align-items: center;
   justify-content: center;
   width:100%;
