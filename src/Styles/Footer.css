@@ -1,9 +1,11 @@
 /* Social Links*/
-#footer{
+.footer-section{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  background-color: black;
+
   
   
 }
@@ -16,25 +18,16 @@
 }
 
 .social-links li {
-  margin-right: 10px;
+  margin: 8px 35px 20px;
   
  
 }
 
 .social-links li a {
-  color: gray;
+  color: whitesmoke;
   font-size: 25px;
-  padding: 0 8px 25px;
-  
 }
-.social-links li:nth-child(1) a:hover{
-  color:black;
+.social-links li a:hover{
+  color:orangered;
+  transition: 0.8s;
 }
-
-.social-links li:nth-child(2) a:hover {
-  color:dodgerblue;
-}
-.social-links li:nth-child(3) a:hover {
-  color:blue;
-}
-

@@ -4,7 +4,7 @@ import '../Styles/Footer.css';
 
 const Footer = () => {
   return(
-    <div className="container" id="footer">
+    <div className="footer-section" id="footer">
       <div>
         <ul className="social-links">
           <li>
