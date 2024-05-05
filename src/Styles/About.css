@@ -37,14 +37,16 @@
 .about-content h1 {
   font-size: 33px; 
   color:black;
+  margin-bottom:1.3rem;
   
 
 }
 
 .about-content p {
-  line-height: 1.5; 
   margin-top:0;
   color: black;
+  letter-spacing: 1.2px;
+  line-height: 27px;
 
 }
 

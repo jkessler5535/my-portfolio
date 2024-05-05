@@ -1,11 +1,20 @@
  #contact {
   margin-bottom: 3rem;
+  max-width:905px;
+
  }
 
- .contact-h1, .inner-contact {
+ .contact-h1  {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.inner-contact{
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
 }
 
 .contact-h1 h1, .contact-p{
@@ -14,4 +23,15 @@
 }
 
 
+.inner-contact a {
+  text-decoration: none;
+  color: rgb(22, 115, 209);
+}
+.inner-contact p{
+  letter-spacing: 1.2px;
+  line-height: 24px;
+}
+.inner-contact a:hover{
+  color:orangered;
+}
 
