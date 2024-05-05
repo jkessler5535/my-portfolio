@@ -5,6 +5,7 @@
   align-items: center;
   flex-direction: row;
   
+  
 }
 .social-links {
   display: flex;
@@ -23,7 +24,7 @@
 .social-links li a {
   color: gray;
   font-size: 25px;
-  padding: 6px;
+  padding: 0 8px 25px;
   
 }
 .social-links li:nth-child(1) a:hover{
