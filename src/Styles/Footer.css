@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  
 }
 .social-links {
   display: flex;
@@ -15,6 +16,7 @@
 
 .social-links li {
   margin-right: 10px;
+  
  
 }
 

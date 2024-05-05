@@ -1,4 +1,15 @@
-.h1-projects, .h1-contact {  /* these are styles for h1 on projects and skills pages */
+.h1-projects, .h1-contact ,.skills-heading {  /* these are styles for h1 on projects and skills/contact pages */
   font-size: 33px;
-  margin: 120px 45%;
+ 
 }
+
+#projects {
+  display: flex; 
+  justify-content:center;
+  align-items: center;
+  padding: 80px 15px 250px;
+
+}
+ #projects h1 {
+  text-align:center;
+ }

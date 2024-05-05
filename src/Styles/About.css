@@ -36,7 +36,6 @@
 
 .about-content h1 {
   font-size: 33px; 
-  margin-bottom: 1rem;
   color:black;
   
 
@@ -47,11 +46,5 @@
   margin-top:0;
   color: black;
 
-}
-
-.promineo{
-  font-weight:bold;
-  font-style: italic;
-  
 }
 
