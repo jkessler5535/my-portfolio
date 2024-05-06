@@ -42,6 +42,7 @@
 .skill-card i {
   opacity: 1;
   transition: opacity 0.0s ease-in-out;
+  color: rgb(28,40,65);
 }
 .skill-card:hover i{
   opacity: 0;
@@ -51,7 +52,8 @@
   transform: scale(1.05);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  color: red;
+  background-color:#a9a9a9;
+  letter-spacing: 1.2px;
   
   
 }
@@ -65,7 +67,7 @@
   top: 50%;
   left:50%;
   transform: translate(-50%, -50%);
-  color: orangered;
+  color: white;
   font-size:24px;
   font-weight: bolder;
 }
