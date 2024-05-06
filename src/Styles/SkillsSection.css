@@ -35,13 +35,42 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+
+
+}
+.skill-card i {
+  opacity: 1;
+  transition: opacity 0.0s ease-in-out;
+}
+.skill-card:hover i{
+  opacity: 0;
 }
 
 .skill-card:hover  {
   transform: scale(1.05);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  color: whitesmoke;
+  color: red;
+  
+  
+}
+
+.skill-card:hover h1 {
+  display:block;
+}
+.hover-text {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  color: orangered;
+  font-size:24px;
+  font-weight: bolder;
+}
+.skill-card:hover .hover-text {
+  display:block;
 }
 
 
@@ -55,10 +84,20 @@
 .fa-brands {
   font-size: 60px;
   
+  
 }
-.skill-card:hover i {
-  color: blue;
+.hover-effect {
+  animation: dance 2s infinite;
 }
+
+@keyframes dance {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(10deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(-10deg); }
+  100% { transform: rotate(0deg); }
+}
+
 
 
 /* Media Queries */
