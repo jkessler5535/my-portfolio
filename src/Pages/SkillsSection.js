@@ -19,18 +19,23 @@ const SkillsSection = () => {
             </Card>
           <Card className="skill-card">
             <i class="fa-brands fa-css3 hover-effect"></i>
+            <h1 className="hover-text">CSS</h1>
           </Card>
           <Card className="skill-card">
             <i class="fa-brands fa-js hover-effect"></i>
+            <h1 className="hover-text">JavaScript</h1>
           </Card>
           <Card className="skill-card">
             <i class="fa-brands fa-react hover-effect"></i>
+            <h1 className="hover-text">React</h1>
           </Card>
           <Card className="skill-card">
             <i class="fa-brands fa-bootstrap hover-effect"></i>
+            <h1 className="hover-text">Bootstrap</h1>
           </Card>
           <Card className="skill-card">
             <i class="fa-brands fa-github hover-effect"></i>
+            <h1 className="hover-text">Github</h1>
           </Card>
         </div>
     </div>
