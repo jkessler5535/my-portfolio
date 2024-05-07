@@ -18,7 +18,7 @@ function Home() {
 
 
   return (
-    <div className="background box-shadow-bottom" id="home">
+    <div className="background" id="home">
       <Container className="container-padding hero-banner">
               <div className="inner-content">
                 <h1>Hi, I'm<span className="my-name"> Jamie.</span></h1>
