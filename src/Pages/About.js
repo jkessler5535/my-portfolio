@@ -18,7 +18,7 @@ export default function About (){
                   </a>
                 </div>
               </Col>
-              <Col xs={12} md={6} className="order-md-2 d-flex  ">
+              <Col xs={12} md={6} className="order-md-2 d-flex ">
                 <div className="about-content">
                   <h1 className="logo">About Me</h1>
                   <p>Let's dive right in.</p>

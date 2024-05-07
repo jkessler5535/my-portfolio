@@ -12,7 +12,7 @@
  margin: 0 auto;
  width: 100%;
  border-radius: 5px;
- max-width: 1050px;
+ max-width: 1340px;
  
  
 }
@@ -47,6 +47,8 @@
   color: black;
   letter-spacing: 1.2px;
   line-height: 27px;
+  text-align: justify;
+ 
 
 }
 

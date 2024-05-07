@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Card} from 'react-bootstrap';
 import '../Styles/SkillsSection.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
