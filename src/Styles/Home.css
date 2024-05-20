@@ -55,12 +55,9 @@
   color: darkgrey;
   
 }
-.github-btn:hover {
-  color: whitesmoke;
-}
 
 
- #contact-btn {
+ #github-btn {
   display: inline;
   padding: 10px 20px;
   background-color: dodgerblue;
@@ -73,6 +70,10 @@
   margin-top:2.6rem;
   text-decoration: none;
   cursor:pointer;
+  
+ }
+ .github-icon {
+  vertical-align: middle;
   
  }
  
