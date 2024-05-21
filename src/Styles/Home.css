@@ -45,20 +45,12 @@
 
 .btn-container{
   display: inline;
+
   
-}
-.github-btn {
-  margin-left: 45px;
-  font-size: 35px;
-  color: darkgrey;
-  
-}
-.github-btn:hover {
-  color: whitesmoke;
 }
 
 
- #contact-btn {
+ #github-btn {
   display: inline;
   padding: 10px 20px;
   background-color: dodgerblue;
@@ -72,6 +64,13 @@
   text-decoration: none;
   cursor:pointer;
   
+ }
+ .github-icon {
+  vertical-align: middle;
+  margin-right: 5px;
+  text-align:center;
+  font-size:20px;
+
  }
  
 
