@@ -9,9 +9,9 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 const SkillsSection = () => {
   return (
     <div id="skillsSection" className="skills-section">
-      <div className="h1-skills">
-       <h1 className="skills-heading logo">Skills</h1>
-      </div>  
+        <div className="h1-skills">
+        <h1 className="skills-heading logo">Skills</h1>
+        </div>  
         <div className="skills-content">
             <Card className="skill-card">
               <i class="fa-brands fa-html5 hover-effect"></i>
