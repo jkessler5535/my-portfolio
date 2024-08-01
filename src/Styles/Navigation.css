@@ -2,8 +2,15 @@
   display: flex;
   align-items: center;
   background-color:transparent;
-  
+
 }
+.custom-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+}
+
 
 .lg-left{
   margin-left: 2rem;
@@ -44,9 +51,4 @@
   margin-left: auto;
 }
 
-.custom-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 

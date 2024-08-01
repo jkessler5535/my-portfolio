@@ -5,6 +5,7 @@
 .projects-section{
   background-color: rgb(245,245,245);
  
+ 
 
 }
 .project-flex {
@@ -25,14 +26,15 @@
   display: grid;
   grid-template-columns:repeat(3, 1fr);
   margin: 120px 0;
-  gap: 100px;
+  gap: 50px;
 }
 
   .project-logo {
     width:100%;
     max-width:250px;
   }
-
+  
+  
   @media (max-width: 768px) {
     #projects {
       grid-template-columns: 1fr;
