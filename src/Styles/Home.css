@@ -87,7 +87,11 @@
 @media (max-width: 767px) {
   .container {
     flex-direction: column;
+    padding: 150px;
     
+  }
+  .inner-content{
+    bottom: 8px;
   }
   
 

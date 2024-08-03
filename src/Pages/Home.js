@@ -19,11 +19,11 @@ function Home() {
 
   return (
     <div className="background" id="home">
-      <Container className=" hero-banner">
+      <Container className="hero-banner">
               <div className="inner-content">
                 <h1>Hi, I'm<span className="my-name"> Jamie.</span></h1>
-                <h2 className="job-title align-left">Front-end Developer</h2>
-                <p className="align-left">Exploring React and open for freelance work. Let's code together!</p> 
+                <h2 className="job-title">Front-end Developer</h2>
+                <p>Exploring React and open for freelance work. Let's code together!</p> 
                 <div className="btn-container">
                     <a href="https://www.github.com/jkessler5535" target="_blank"  rel="noreferrer" id="github-btn" onClick={handleContactClick}><BiLogoGithub className="github-icon"/>Follow me on GitHub</a>
                 </div>
