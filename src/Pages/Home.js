@@ -25,7 +25,7 @@ function Home() {
                 <h2 className="job-title align-left">Front-end Developer</h2>
                 <p className="align-left">Exploring React and open for freelance work. Let's code together!</p> 
                 <div className="btn-container">
-                    <a href="https://www.github.com/jkessler5535" id="github-btn" onClick={handleContactClick}><BiLogoGithub className="github-icon"/>Follow me on GitHub</a>
+                    <a href="https://www.github.com/jkessler5535" target="_blank"  rel="noreferrer" id="github-btn" onClick={handleContactClick}><BiLogoGithub className="github-icon"/>Follow me on GitHub</a>
                 </div>
               </div>
       </Container>

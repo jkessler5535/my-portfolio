@@ -4,39 +4,121 @@
 }
 .projects-section{
   background-color: rgb(245,245,245);
+  padding: 65px;
  
- 
-
 }
 .project-flex {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .project-container {
   display: flex;
+  flex-direction: column;
   padding-top: 40px;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  max-width: 785px;
   width: 100%;
-  max-width: 1200px;
-}
-.img-container{
-  display: grid;
-  grid-template-columns:repeat(3, 1fr);
-  margin: 120px 0;
-  gap: 50px;
+  text-align:center;
+    
 }
 
-  .project-logo {
-    width:100%;
-    max-width:250px;
-  }
+.project-item {
+  background: #fff; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+  margin: 10px; 
+  text-align: center; 
+}
+
+.project-title {
+  font-size: 24px; 
+  font-weight: bold; 
+  margin-bottom: 10px; 
+}
+
+.project-description {
+  font-size: 18px; 
+  color: #333; 
+  margin-bottom: 10px;
+}
+
+.project-status{
+  font-size: 16px; 
+  color: #333; 
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  background-color: #e0f7fa;
+  border-radius: 4px;
+  display: inline-block;
+}
+.status-label{
+  font-weight:bold;
+}
+
+.project-link {
+  color: dodgerblue; 
+  text-decoration: none; 
+  font-weight: bold; 
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+/* Styles for Project Summary*/
+
+.project-summary {
+  position:relative;
+  top:50px;
+  bottom: 0;
+  background: #fff; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  padding-top: 20px; 
+  margin: 20px auto; 
+  width: 100%; 
+  max-width: 780px; 
+  box-sizing: border-box;
+  min-width: 300px; 
+  min-height: auto; 
   
+}
+
+.project-summary p {
+  font-size: 18px; 
+  color: #333; 
+  line-height: 1.5;
+  width: 100%; 
+  align-content: center; 
+  text-align: center; 
+  align-items: center;
+  padding: 12px;
   
-  @media (max-width: 768px) {
-    #projects {
-      grid-template-columns: 1fr;
-    }
-  }
+}
+
+.project-summary p a {
+  color: dodgerblue; 
+  text-decoration: none; 
+  font-weight: bold; 
+}
+
+  
+
+.portfolio-link {
+  color: dodgerblue; 
+  text-decoration: none;
+  font-weight: bold; 
+  display: block; 
+  margin-top: 10px; 
+  font-size: 16px; 
+  text-align: center; 
+}
+
+.portfolio-link:hover {
+  text-decoration: underline; 
+}
