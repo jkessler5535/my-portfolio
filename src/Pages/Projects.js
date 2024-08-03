@@ -14,7 +14,8 @@ export default function Projects (){
         <p className="project-description">
           A web application that allows users to create and customize their own avatars.</p>
           <p className="project-status">
-            <span className="status-label">Status:</span> Currently in progress (Intern Project)
+            <span className="status-label">Status:</span> Currently in progress 
+            <p>(Intern Project)</p>
           </p>
           <a
            href="https://github.com/jkessler5535/gogo-Builder.git" 
